@@ -2,7 +2,7 @@
   "name": "playwright-service",
   "version": "1.0.0",
   "private": true,
-  "scripts": { "start": "node server.js", "postinstall": "playwright install chromium" },
+  "scripts": { "start": "npx playwright install chromium && node server.js", "postinstall": "playwright install chromium" },
   "dependencies": {
     "express": "^4.21.2",
     "playwright": "^1.51.1"
